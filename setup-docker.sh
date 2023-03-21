@@ -15,3 +15,6 @@ curl -SL https://github.com/docker/compose/releases/download/v2.11.2/docker-comp
 sudo chmod +x /usr/local/bin/docker-compose
 
 sudo usermod -aG docker $user
+
+# If you are using cloudflared on docker, uncomment the line below.
+#docker network create cloudflared-network
